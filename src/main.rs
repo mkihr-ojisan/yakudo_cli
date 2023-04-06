@@ -32,9 +32,9 @@ async fn try_main() -> anyhow::Result<()> {
     };
 
     if score >= 150.0 {
-        println!("GoodYakudo!\nScore: {}", score);
+        println!("GoodYakudo!\nScore: {:.3}", score);
     } else {
-        println!("もっとyakudoしろ！\nScore: {}", score);
+        println!("もっとyakudoしろ！\nScore: {:.3}", score);
     }
     Ok(())
 }
